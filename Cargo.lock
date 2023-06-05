@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "parsing"
+version = "0.1.0"
+
+[[package]]
 name = "vergen"
 version = "0.1.0"
 
@@ -10,5 +14,6 @@ version = "0.1.0"
 name = "wrestle"
 version = "0.1.0"
 dependencies = [
+ "parsing",
  "vergen",
 ]
